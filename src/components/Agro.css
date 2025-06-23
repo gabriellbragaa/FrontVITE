@@ -1,0 +1,33 @@
+.AgroBrasil {
+  border: 2px solid #28a745;
+  border-radius: 12px;
+  padding: 16px;
+  max-width: 280px;
+  text-align: center;
+  background-color: #f5fdf6;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.AgroBrasil:hover {
+  transform: scale(1.03);
+}
+
+.AgroBrasil img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.AgroBrasil h2 {
+  font-size: 1.25rem;
+  margin: 8px 0;
+  color: #2c7a36;
+}
+
+.AgroBrasil p {
+  font-size: 1rem;
+  color: #444;
+  font-weight: 500;
+}
